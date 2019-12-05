@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+ body {
+    margin-left:20%;
+    margin-right: 20%;
+    padding:10px;
+    border-style: solid;
+    border-width: 3px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(10%);
+  grid-template-rows: repeat(10%);
+  grid-gap: 15px;
+  background-color: white;
+  color: #444;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+#itemImage {
+  padding: 50px;
+  grid-column: 1 / span 4;
+  grid-row: 1 / span 4;
+}
+
+#contact {
+  grid-column: 1 / span 4;
+  grid-row: 5;
+  font-size: 18px;
+}
+
+#text {
+  grid-column: 5 / span 6;
+  grid-row: 1 / span 4;
+}
+
+#acceptButton {
+  grid-column: 6 / span 2;
+  grid-row: 5;
+  color: #fff;
+  border-radius: 10px;
+}
+
+#declineButton {
+  grid-column: 8 / span 2;
+  grid-row: 5;
+  color: #fff;
+  border-radius: 10px;
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+  <div class="itemImage">
+    <img src="aron.png">
+  </div>
+  <div class="contact">
+    <li style="color:black">Tatiana Harrison</li>
+    <li style="color:black">Email here</li>
+    <li style="color:black">Phone here</li>
+  </div>
+  <div class="text">
+    <li>qpaweojkrnvoijansdofiugbawoerf</li>
+    <li>palksmcpoiuqwneiyunqowyef</li>
+    <li>apjscndoiquwnevociuynqwuovryeb</li>
+    The reason I am contacting you is because blah blah blah......
+  </div>
+  <div class="acceptButton">Accept</div>
+  <div class="declineButton">Decline</div>
+</div>
+</body>
+</html>

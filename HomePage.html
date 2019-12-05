@@ -2,11 +2,54 @@
 <html>
 
 	<head>
-	  <title>Home Page</title>
+	  <title font-size: 36px>Home Page</title>
+	  <style>
+	  	#wrapper img {
+		  position: absolute;
+		  border-color: #000;
+		  border-style: solid;
+		  border-width: thin;
+		  top: 0px;
+		  left: 0px;
+		}
+	  	#spacing {
+	  		width: 600px;
+	  		height: 5px;
+	  		border-color: #fff;
+	  		background-color: #fff;
+	  	}
+		#courseHead {
+		  width: 300px;
+		  height: 60px;
+		  padding-top: 20px;
+		  text-align: center;
+		  margin-left: 41%;
+		  background-color: #000;
+		  border-color: #000;
+		  border-style: solid;
+		  border-width: thin;
+		  cursor: pointer;
+		  color: #fff;
+		  padding-left: 8px;
+		  font-size: 36px;
+		  font-family: "Georgia"
+		}
+		#courseHead:Hover {
+			opacity: 0.7;
+		}
+	  </style>
 	</head>
 	
 	<body>
-	<p style="text-align: center">Home Page</p>
+	<p style="margin-left: 45%; font-size: 36px; color: #000">Home Page</p>
+	<div id="wrapper">
+		<img src="Aron.png">
+	<div id="courseHead"><a href="Scheduler.html">Schedule Meeting</a></div>
+	<div id="spacing"></div>
+	<div id="courseHead"><a href="Notifications.html">Notifications</a></div>
+	<div id="spacing"></div>
+	<div id="courseHead"><a href="Calendar.html">Calendar</a></div>
+	</div>
 	</body>
 
 </html>
