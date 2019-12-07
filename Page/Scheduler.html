@@ -98,20 +98,28 @@ body {font-family: Verdana, sans-serif;}
 </head>
 <body>
 <h1>Schedule a meeting</h1>
-<img src="avatar.png" alt="Avatar" style="width:200px">
+<a href="HomePage.html">
+<img src="homebutton.png" alt="Avatar" style="width:60px;height:60px">
+</a>
  <table>
- 	<tr>			
+  <th> Choose Faculty </th>
+  <th> Classes </th>
  		<td>
- 			<div>Andonie</div>
- 			<input type="image" src="Andoni.png" name="saveForm" class="btTxt submit" id="saveForm" />	
+      <th> Choose meeting day</th>
+  <tr> 
+      <td>     
+ 			<div>Dr. Razvan Andonie</div>
+ 			<input type="image" src="Andoni.png" name="saveForm" class="btTxt submit" id="saveForm" />
+      </td>	
  			<td>
- 			Classes:CS 302,CS 311,CS 312	
+ 			:CS 302,CS 311,CS 312	
  			</td>
  		</td>
+
  		<td>
  			<th rowspan="10",colspan="6">
  			<div class="month">
-  <ul> 
+  <ul>
   	-----------------------------------------------------------------------------------------------------
     <li class="prev">&#10094;</li>
     <li class="next">&#10095;</li>
@@ -166,22 +174,26 @@ body {font-family: Verdana, sans-serif;}
 <br>
 <br>
  		</td>
+
  		<td valign="bottom">
  		<th rowspan = "6">
  			<p>Choose Class:<br>
- 			<input type="radio" name="classes" value="CS 302"> CS 302<br>
-			<input type="radio" name="classes" value="CS 311"> CS 311<br>
-			<input type="radio" name="classes" value="CS 312"> CS 312<br>
-			<input type="radio" name="classes" value="none"> none<br>
+ 			<input type="radio" style="vertical-align: middle; margin: 0px;" name="class"  value="CS 302"> CS 302<br>
+			<input type="radio" style="vertical-align: middle; margin: 0px;" name="class"  value="CS 311"> CS 311<br>
+			<input type="radio" style="vertical-align: middle; margin: 0px;" name="class"  value="CS 312"> CS 312<br>
+			<input type="radio" style="vertical-align: middle; margin: 0px;" name="class"  value="none"> none<br>
  			</p>
  			<p>Metting Subject:<br>
- 			<input type="radio" name="Subject" value="homework">homework <br>
- 			<input type="radio" name="Subject" value="test/retake"> test/retake<br>
- 			<input type="radio" name="Subject" value="advising"> advising<br>
- 			<input type="radio" name="Subject" value="other"> other<br>
+ 			<input type="radio" style="vertical-align: middle; margin: 0px;" name="Subject" value="homework">homework <br>
+ 			<input type="radio" style="vertical-align: middle; margin: 0px;" name="Subject" value="test/retake"> test/retake<br>
+ 			<input type="radio" style="vertical-align: middle; margin: 0px;" name="Subject" value="advising"> advising<br>
+ 			<input type="radio" style="vertical-align: left; margin: 0px;" name="Subject" value="other"> other<br>
  			</p>
  			<br>
- 			<p>(optional) Message:
+ 			<p>(optional) Message:<br>
+        <textarea rows="4" cols="25">
+        Text...
+        </textarea>
  			<br>
  			<br>Send Request for:
  			<br>Date:____ Time:_____
@@ -189,48 +201,49 @@ body {font-family: Verdana, sans-serif;}
  			</p>
  		</td>
 	</tr>
+
  	<tr>			
  		<td>
- 			<div>Andonie</div>
- 			<input type="image" src="Andoni.png" name="saveForm" class="btTxt submit" id="saveForm" />	
+ 			<div>Dr. Boris Kovalerchuk</div>
+ 			<input type="image" src="Boris.png" name="saveForm" class="btTxt submit" id="saveForm" />	
  			<td>
- 			Classes:CS 302,CS 311,CS 312	
- 			</td>
- 		</td>
-	</tr>	
-	<tr>			
- 		<td>
- 			<div>Andonie</div>
- 			<input type="image" src="Andoni.png" name="saveForm" class="btTxt submit" id="saveForm" />	
- 			<td>
- 			Classes:CS 302,CS 311,CS 312	
+ 			:CS 302,CS 311,CS 312	
  			</td>
  		</td>
 	</tr>
 	<tr>			
  		<td>
- 			<div>Andonie</div>
- 			<input type="image" src="Andoni.png" name="saveForm" class="btTxt submit" id="saveForm" />	
+ 			<div>Dr. Adriano Cavalcanti</div>
+ 			<input type="image" src="Calvicanti.png" name="saveForm" class="btTxt submit" id="saveForm" />	
  			<td>
- 			Classes:CS 302,CS 311,CS 312	
+ 			:CS 302,CS 311,CS 312	
  			</td>
  		</td>
 	</tr>
 	<tr>			
  		<td>
- 			<div>Andonie</div>
- 			<input type="image" src="Andoni.png" name="saveForm" class="btTxt submit" id="saveForm" />	
+ 			<div>Dr. Donald Davendra </div>
+ 			<input type="image" src="Davendra.png" name="saveForm" class="btTxt submit" id="saveForm" />	
  			<td>
- 			Classes:CS 302,CS 311,CS 312	
+ 			:CS 302,CS 311,CS 312	
  			</td>
  		</td>
 	</tr>
 	<tr>			
  		<td>
- 			<div>Andonie</div>
- 			<input type="image" src="Andoni.png" name="saveForm" class="btTxt submit" id="saveForm" />	
+ 			<div>Megan McConnell</div>
+ 			<input type="image" src="Megean.png" name="saveForm" class="btTxt submit" id="saveForm" />	
  			<td>
- 			Classes:CS 302,CS 311,CS 312	
+ 			:CS 302,CS 311,CS 312	
+ 			</td>
+ 		</td>
+	</tr>
+	<tr>			
+ 		<td>
+ 			<div>Tatiana Harrison</div>
+ 			<input type="image" src="tati.png" name="saveForm" class="btTxt submit" id="saveForm" />	
+ 			<td>
+ 			:CS 302,CS 311,CS 312	
  			</td>
  		</td>
 	</tr>
